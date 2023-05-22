@@ -5,7 +5,7 @@ import React from "react";
 const Experience = () => {
     return (
         <section className="experience">
-            <h1>
+            <h1 className="primary_header text-8xl">
                 Gain hands-on experience while building a portfolio of
                 real-world projects
             </h1>
