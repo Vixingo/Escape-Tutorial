@@ -5,7 +5,7 @@ import React from "react";
 const Experience = () => {
     return (
         <section className="experience py-24">
-            <h1 className="primary_header text-6xl max-w-3xl mx-auto text-center">
+            <h1 className="primary_header px-2 text-4xl  md:text-6xl max-w-3xl mx-auto text-center">
                 Gain hands-on experience while building a portfolio of
                 real-world projects
             </h1>

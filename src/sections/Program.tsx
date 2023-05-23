@@ -6,13 +6,13 @@ import React from "react";
 const Program = () => {
     return (
         <section className="program">
-            <h1 className="primary_header text-6xl text-center pb-8">
+            <h1 className="primary_header text-5xl md:text-6xl text-center pb-8">
                 Our program
             </h1>
-            <div className="bg-lines bg-no-repeat bg-contain">
-                <div className="flex flex-col-reverse md:flex-row items-center justify-center ">
+            <div className="bg-lines bg-no-repeat bg-contain ">
+                <div className="flex flex-col-reverse md:flex-row items-center justify-center px-2 ">
                     <div className="flex-1 ">
-                        <p className="text-3xl p-2 max-w-lg mx-auto">
+                        <p className="text-xl md:text-3xl py-4 p-2 max-w-lg mx-auto">
                             Work through a series of projects hand-picked
                             specifically for your skillset and goals, at your
                             own pace
@@ -27,7 +27,7 @@ const Program = () => {
                         />
                     </div>
                 </div>
-                <div className="flex flex-col md:flex-row items-center justify-center">
+                <div className="flex flex-col md:flex-row items-center justify-center px-2">
                     <div>
                         <Image
                             src="/images/pro2.png"
@@ -37,7 +37,7 @@ const Program = () => {
                         />
                     </div>
                     <div>
-                        <p className="text-3xl p-2 max-w-lg mx-auto">
+                        <p className="text-xl md:text-3xl py-4 p-2 max-w-lg mx-auto">
                             When you get stuck, request help from a mentor and
                             chat through text or video
                         </p>
@@ -45,9 +45,9 @@ const Program = () => {
                 </div>
             </div>
             <div className="bg-lines bg-no-repeat bg-contain">
-                <div className="flex flex-col-reverse md:flex-row items-center justify-center ">
+                <div className="flex flex-col-reverse md:flex-row items-center justify-center px-2">
                     <div className="flex-1 ">
-                        <p className="text-3xl p-2 max-w-lg mx-auto">
+                        <p className="text-xl md:text-3xl py-4 p-2 max-w-lg mx-auto">
                             Watch yourself grow and gain confidence by tracking
                             your progress in your dashboard
                         </p>
@@ -61,7 +61,7 @@ const Program = () => {
                         />
                     </div>
                 </div>
-                <div className="flex flex-col md:flex-row items-center justify-center justify-items-center">
+                <div className="flex flex-col md:flex-row items-center justify-center justify-items-center px-2">
                     <div className=" justify-items-center">
                         <Image
                             src="/images/pro4.png"
@@ -71,7 +71,7 @@ const Program = () => {
                         />
                     </div>
                     <div>
-                        <p className="text-3xl p-2 max-w-lg mx-auto">
+                        <p className="text-xl md:text-3xl py-4 p-2 max-w-lg mx-auto">
                             Connect with a community of like-minded learners in
                             our private Discord Server
                         </p>

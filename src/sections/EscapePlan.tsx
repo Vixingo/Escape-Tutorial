@@ -4,8 +4,10 @@ import React from "react";
 const EscapePlan = () => {
     return (
         <section className="EscapePlan bg-lines bg-no-repeat bg-cover backdrop-blur-xl">
-            <div className="text-center">
-                <h1 className="primary_header text-6xl">How do you escape?</h1>
+            <div className="text-center px-2">
+                <h1 className="primary_header text-5xl md:text-6xl">
+                    How do you escape?
+                </h1>
                 <br />
                 <h2 className="text-center text-3xl mb-6">
                     The solution to Tutorial Hell is simple:{" "}
