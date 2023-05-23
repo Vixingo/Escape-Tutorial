@@ -19,12 +19,15 @@
 body {
     color: rgb(var(--foreground-rgb));
     background: url("/images/bg.png");
-    background-size: 100%;
+    background-size: auto 100%;
     background-attachment: fixed;
 }
 
 @layer components {
     .primary_header {
         @apply font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-white/40;
+    }
+    .row {
+        @apply flex;
     }
 }

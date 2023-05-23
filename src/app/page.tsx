@@ -5,6 +5,7 @@ import Experience from "@/sections/Experience";
 import Hero from "@/sections/Hero";
 import Program from "@/sections/Program";
 import Stuck from "@/sections/Stuck";
+import Way from "@/sections/Way";
 import Image from "next/image";
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
             <Experience />
             <Demand />
             <Program />
+            <Way />
             <About />
         </>
     );

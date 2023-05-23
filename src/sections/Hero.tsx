@@ -6,12 +6,12 @@ const Hero = () => {
     return (
         <section className="Hero pt-20 ">
             <div className="grid grid-cols-2 ">
-                <div className="col-span-5 lg:col-span-1 ml-28">
-                    <h1 className="primary_header text-7xl lg:text-8xl leading-loose pr-20 pt-12">
+                <div className="col-span-5 lg:col-span-1  lg:ml-28 px-4">
+                    <h1 className="primary_header text-7xl  leading-tight lg:text-8xl pr-20 pt-12">
                         Escape Tutorial Hell
                     </h1>
                     <br />
-                    <p className=" text-2xl ">
+                    <p className="text-2xl">
                         Learn to independently build by completing real-world
                         projects with on-demand mentor guidance
                     </p>
@@ -21,7 +21,7 @@ const Hero = () => {
                         Learn More
                     </button>
                 </div>
-                <div className="col-span-1 flex justify-end ">
+                <div className="col-span-1  justify-self-end hidden md:flex ">
                     <Image
                         src={"/images/hero1.png"}
                         alt="Escape Tutorial Hero img"
