@@ -6,9 +6,9 @@ import React from "react";
 
 const About = () => {
     return (
-        <section className="About py-20 bg-lines bg-contain bg-no-repeat">
-            <div className="container px-4 mx-auto grid grid-cols-2">
-                <div className="col-span-1">
+        <section className="About py-20 backdrop-blur-sm">
+            <div className="container px-10 mx-auto flex md:flex-row flex-col-reverse  ">
+                <div className="flex-1 text-center md:text-left">
                     <h1 className="primary_header text-6xl py-2">
                         Shadee Merhi
                     </h1>
@@ -39,7 +39,7 @@ const About = () => {
                         </Link>{" "}
                     </h6>
                 </div>
-                <div className="col-span-1 flex items-center flex-col">
+                <div className=" flex items-center flex-col flex-1 pb-5">
                     <Image
                         src="/images/about.png"
                         alt="about"

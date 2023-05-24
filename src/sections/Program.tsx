@@ -9,7 +9,7 @@ const Program = () => {
             <h1 className="primary_header text-5xl md:text-6xl text-center pb-8">
                 Our program
             </h1>
-            <div className="bg-lines bg-no-repeat bg-contain ">
+            <div className=" ">
                 <div className="flex flex-col-reverse md:flex-row items-center justify-center px-2 ">
                     <div className="flex-1 ">
                         <p className="text-xl md:text-3xl py-4 p-2 max-w-lg mx-auto">
@@ -44,7 +44,7 @@ const Program = () => {
                     </div>
                 </div>
             </div>
-            <div className="bg-lines bg-no-repeat bg-contain">
+            <div>
                 <div className="flex flex-col-reverse md:flex-row items-center justify-center px-2">
                     <div className="flex-1 ">
                         <p className="text-xl md:text-3xl py-4 p-2 max-w-lg mx-auto">

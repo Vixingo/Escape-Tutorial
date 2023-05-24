@@ -21,7 +21,7 @@ const Hero = () => {
                         Learn More
                     </button>
                 </div>
-                <div className="col-span-1  justify-self-end hidden md:flex ">
+                <div className="col-span-1 justify-center md:justify-self-end hidden  md:flex ">
                     <Image
                         src={"/images/hero1.png"}
                         alt="Escape Tutorial Hero img"

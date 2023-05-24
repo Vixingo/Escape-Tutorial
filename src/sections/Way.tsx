@@ -18,7 +18,7 @@ const Way = () => {
                 That’s why we’ve gathered some of the best engineers and
                 educators to be by your side every step of the way
             </p>
-            <div className="bg-way bg-contain h-screen bg-no-repeat"></div>
+            <div className="bg-way bg-contain h-[260px] my-20 bg-no-repeat backdrop-blur-sm bg-center"></div>
             <div>
                 <h1 className="primary_header text-4xl md:text-6xl pb-10 text-center">
                     Who’s this program for?
